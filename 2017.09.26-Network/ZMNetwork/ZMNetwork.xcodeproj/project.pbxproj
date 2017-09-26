@@ -51,6 +51,8 @@
 		340BD42E1F7A34210035BE31 /* ZMNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		340BD4321F7A34210035BE31 /* ZMNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMNetworkUITests.m; sourceTree = "<group>"; };
 		340BD4341F7A34210035BE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340BD4411F7A380C0035BE31 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		340BD4421F7A380C0035BE31 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		340BD40D1F7A34200035BE31 /* ZMNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				340BD4401F7A34530035BE31 /* Reachability */,
 				340BD40E1F7A34200035BE31 /* AppDelegate.h */,
 				340BD40F1F7A34200035BE31 /* AppDelegate.m */,
 				340BD4111F7A34200035BE31 /* ViewController.h */,
@@ -130,6 +133,15 @@
 				340BD4341F7A34210035BE31 /* Info.plist */,
 			);
 			path = ZMNetworkUITests;
+			sourceTree = "<group>";
+		};
+		340BD4401F7A34530035BE31 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				340BD4421F7A380C0035BE31 /* Reachability.h */,
+				340BD4411F7A380C0035BE31 /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
